@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
+   http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+  version="2.4">
+
+  <servlet>
+    <servlet-name>ServletBingo</servlet-name>
+    <servlet-class>ServletBINGO</servlet-class>
+  </servlet>
+
+    <servlet>
+    <servlet-name>BingoCard</servlet-name>
+    <servlet-class>bingo.BingoCard</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ServletBingo</servlet-name>
+    <url-pattern>/ServletBingo</url-pattern>
+  </servlet-mapping>
+
+    <servlet-mapping>
+    <servlet-name>BingoCard</servlet-name>
+    <url-pattern>/BingpCard</url-pattern>
+  </servlet-mapping>
+
+</web-app>
