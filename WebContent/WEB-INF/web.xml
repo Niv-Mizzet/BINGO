@@ -26,4 +26,13 @@
     <url-pattern>/BingpCard</url-pattern>
   </servlet-mapping>
 
+  <servlet>
+    <servlet-name>JSPBingo</servlet-name>
+    <jsp-file>/JSPBingo.jsp</jsp-file>
+</servlet>
+<servlet-mapping>
+    <servlet-name>JSPBingo</servlet-name>
+    <url-pattern>/Bingo.html</url-pattern>
+</servlet-mapping>
+
 </web-app>
